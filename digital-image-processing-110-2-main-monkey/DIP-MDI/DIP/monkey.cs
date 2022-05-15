@@ -85,11 +85,7 @@ namespace DIP
             double Trans = Convert.ToDouble(textBox1.Text);
             Bitmap a = new Bitmap(pictureBox1.Image);
             Bitmap b = new Bitmap(pictureBox1.Image);
-            res_Bitmap = Rotate(a, Convert.ToInt32(textBox1.Text));
-           
- 
-            
-     
+            res_Bitmap = Rotate(a, Convert.ToInt32(textBox1.Text)); 
         }
 
         public Bitmap Rotate(Bitmap b, int angle)
